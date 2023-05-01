@@ -1,0 +1,208 @@
+@import './base.css';
+@import "grapesjs/dist/css/grapes.min.css";
+
+* {
+  font-family: 'Inter';
+}
+
+/* Reset some default styling */
+.gjs-cv-canvas {
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Modal styles */
+#template-select{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(46, 59, 46);
+  color: white;
+  font-size: 1em;
+  border: none;
+  outline: none;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin-block: 1em;
+  border: black solid 1px;
+  cursor: pointer;
+}
+
+
+#load-template-btn{
+  width: 20%;
+  height: 100%;
+  background-color: rgb(42, 128, 42);
+  color: white;
+  font-size: 1em;
+  border: none;
+  outline: none;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin-block: 1em;
+  border: black solid 1px;
+  cursor: pointer;
+}
+
+/* GrapesJs components styling */
+.gjs-one-bg {
+  background-color: #3A4F39;
+}
+
+.gjs-block{
+  height: 9.2em;
+  width: 7em;
+  justify-content: center;
+}
+
+.gjs-blocks-c{
+  justify-content: center;
+
+}
+
+.icon-editor{
+  content: url(./editor.svg);
+  height: 1em;
+  width: 1em;
+}
+
+.icon-code{
+  content: url(./code.svg);
+  height: 1em;
+  width: 1em;
+}
+
+.icon-json{
+  content: url(./json.svg);
+  height: 1em;
+  width: 1em;
+}
+
+.icon-js{
+  content: url(./js.svg);
+  height: 1em;
+  width: 1em;
+  
+}
+
+.icon-undo{
+  content: url(./undo.svg);
+  height: 1em;
+  width: 1em;
+}
+
+.icon-redo{
+  content: url(./redo.svg);
+  height: 1em;
+  width: 1em;
+}
+
+.icon-import{
+  content: url(./import.svg);
+  height: 1em;
+  width: 1em;
+}
+
+.icon-preview{
+  content: url(./preview.svg);
+  height: 1em;
+  width: 1em;
+}
+
+.icon-clear{
+  content: url(./clear.svg);
+  height: 1em;
+  width: 1em;
+}
+
+.icon-layers{
+  content: url(./layers.svg);
+  height: 1em;
+  width: 1em;
+}
+
+.icon-styles{
+  content: url(./styles.svg);
+  height: 1em;
+  width: 1em;
+}
+
+.icon-settings{
+  content: url(./settings.svg);
+  height: 1em;
+  width: 1em;
+}
+
+.icon-desktop{
+  content: url(./desktop.svg);
+  height: 1em;
+  width: 1em;
+}
+
+.icon-mobile{
+  content: url(./mobile.svg);
+  height: 1em;
+  width: 1em;
+}
+
+
+.icons-flex {
+  background-size: 70% 65% !important;
+  height: 15px;
+  width: 17px;
+  opacity: 0.9;
+}
+.icon-dir-row {
+  background: url(./flex-icons/flex-dir-row.png) no-repeat center;
+  
+}
+
+.icon-dir-row-rev {
+  background: url(./flex-icons/flex-dir-row-rev.png) no-repeat center;
+}
+
+.icon-dir-col {
+  background: url(./flex-icons/flex-dir-col.png) no-repeat center;
+}
+
+.icon-dir-col-rev {
+  background: url(./flex-icons/flex-dir-col-rev.png) no-repeat center;
+}
+
+.icon-just-start {
+  background: url(./flex-icons/flex-just-start.png) no-repeat center;
+}
+
+.icon-just-end {
+  background: url(./flex-icons/flex-just-end.png) no-repeat center;
+}
+
+.icon-just-sp-bet {
+  background: url(./flex-icons/flex-just-sp-bet.png) no-repeat center;
+}
+
+.icon-just-sp-ar {
+  background: url(./flex-icons/flex-just-sp-ar.png) no-repeat center;
+}
+
+.icon-just-sp-cent {
+  background: url(./flex-icons/flex-just-sp-cent.png) no-repeat center;
+}
+
+.icon-al-start  {
+  background: url(./flex-icons/flex-al-start.png) no-repeat center;
+}
+
+.icon-al-end  {
+  background: url(./flex-icons/flex-al-end.png) no-repeat center;
+}
+
+.icon-al-str  {
+  background: url(./flex-icons/flex-al-str.png) no-repeat center;
+}
+
+.icon-al-center  {
+  background: url(./flex-icons/flex-al-center.png) no-repeat center;
+}
+
+

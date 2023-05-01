@@ -1,0 +1,41 @@
+{
+  "name": "finalapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "axios": "^1.3.4",
+    "beautify-html": "^1.0.3",
+    "grapejs": "^2.1.2",
+    "grapesjs": "^0.21.1",
+    "grapesjs-blocks-basic": "^1.0.1",
+    "grapesjs-custom-code": "^1.0.1",
+    "grapesjs-plugin-export": "^1.0.11",
+    "grapesjs-plugin-forms": "^2.0.5",
+    "grapesjs-preset-webpage": "^1.0.2",
+    "grapesjs-tabs": "^1.0.6",
+    "js-beautify": "^1.14.7",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "@vue/test-utils": "^2.3.0",
+    "jsdom": "^21.1.0",
+    "sass": "^1.60.0",
+    "vite": "^4.1.4",
+    "vitest": "^0.29.1"
+  }
+}
