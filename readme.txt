@@ -27,7 +27,7 @@ Now you should be able to access my application.
 Test user accounts:
 
 username: testest@test.com
-password: compengineer2I&
+password: Kg_a6T!hs8ts-Xk
 
 Feel free to create any further accounts
 
